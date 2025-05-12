@@ -128,3 +128,30 @@ footer.contacts {
 }
 
 
+@media (max-width: 768px) {
+    .bio-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bio-gallery {
+        justify-content: center;
+    }
+
+    section {
+        margin: 20px 10px;
+        padding: 20px;
+    }
+
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+
+    iframe {
+        height: 200px;
+    }
+}
